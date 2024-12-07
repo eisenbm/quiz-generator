@@ -4,14 +4,58 @@ body {
   line-height: 1.5;
 }
 
+h1 {
+  padding: 2rem 0;
+  line-height: 1;
+}
+
+small {
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
 ol {
   list-style-type: upper-alpha;
 }
-
-
 
 code {
   font-family: monospace;
   background-color: #e7e7e7;
   padding: 3px;
+}
+
+header {
+  padding: 10rem;
+  text-align: center;
+}
+
+section header {
+  padding: 1rem 0;
+  text-align: left;
+}
+
+.px-1 {
+  padding: 1rem 0;
+}
+
+.output {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding: 1rem;
+  border: 2px solid #333;
+  font-size: 2em;
+}
+
+.no-page-break {
+  page-break-after: avoid;
+}
+
+.page-break {
+  page-break-after: always;
 }
