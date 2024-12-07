@@ -5,10 +5,16 @@ body {
 }
 
 ol {
+  list-style-type: decimal;
+}
+
+ol.choices {
   list-style-type: upper-alpha;
 }
 
-
+ul.answer {
+  list-style-type: none;
+}
 
 code {
   font-family: monospace;
