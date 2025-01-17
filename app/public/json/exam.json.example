@@ -1,0 +1,32 @@
+{
+  "title": "Course Final Exam",
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "text": "Which of the following statements about PHP are true?",
+      "answers": [
+        "PHP scripts must be executed on the server",
+        "PHP scripts can natively run in the browser",
+        "PHP scripts can be executed both on the server and in the browser",
+        "PHP scripts must be compiled into machine code before executing on the server"
+      ],
+      "answer": "PHP scripts must be executed on the server"
+    },
+    {
+      "type": "true-false",
+      "text": "The <code>&lt;div&gt;</code> tag is used to define a section in an HTML document.",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "text": "Complete the following PHP code so that the <code>$numbers</code> array contains the values <code>1, 2, 3, 4</code>.<pre><code class=\"language-text\">$numbers = [1, 2, 3];\n___A___($numbers, 4);</code></pre>",
+      "answers": [
+        "array_push"
+      ]
+    }
+  ]
+}
